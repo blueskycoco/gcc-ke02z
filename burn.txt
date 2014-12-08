@@ -1,0 +1,8 @@
+r
+h
+speed 1200
+exec device=MKE02Z64xxx2
+loadbin c:\linux\gcc-ke02z\gcc\uart_echo.bin 0x08000000
+r
+g
+qc

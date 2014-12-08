@@ -84,7 +84,7 @@ ARMGCC_ROOT:=${shell dirname '${shell sh -c "which ${CC}"}'}/..
 #
 # Set the compiler CPU/FPU options.
 #
-CPU=-mcpu=cortex-m0
+CPU=-mcpu=cortex-m0plus
 
 #
 # The flags passed to the assembler.

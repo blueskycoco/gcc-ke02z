@@ -49,7 +49,7 @@ all: ${COMPILER}/uart_echo.axf
 clean:
 	@rm -rf ${COMPILER} ${wildcard *~}
 install:
-	openocd -f openocd.cfg -c "flash_image"
+	'c:\Program Files (x86)\SEGGER\JLinkARM_V484f\jlink.exe' burn.txt
 
 #
 # The rule to create the target directory.
