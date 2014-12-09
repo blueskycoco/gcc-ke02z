@@ -27,9 +27,11 @@ main(void)
     //
     while(1)
     {
-		RED_Set();GREEN_Set();BLUE_Set();
-		delay(100);
-		BLUE_Clear();GREEN_Clear();RED_Clear();
-		delay(100);
+		RED_Toggle();
+		delay(10);
+		GREEN_Toggle();
+		delay(10);
+		BLUE_Toggle();
+		delay(10);
     }
 }
