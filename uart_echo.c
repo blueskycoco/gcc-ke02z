@@ -27,7 +27,7 @@ main(void)
     //
     while(1)
     {
-		RED_Toggle();
+		//RED_Toggle();
 		delay(10);
 		GREEN_Toggle();
 		delay(10);
